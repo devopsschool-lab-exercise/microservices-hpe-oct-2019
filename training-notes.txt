@@ -234,23 +234,14 @@ http://bit.ly/33LSaiM
 
 
 
-noorul
-bmsundar
-vimal3271
-ram31886
-titusjose
-suvojitkar
-karthikar1992
-kavvya97
-yogeswarant
-Ankur-Verma-97
-vikaskh
-karthi696
-denisraj
-shreya1202
-Sakshi-Bhargava
-SrivigneshM
-partheeban17
+How to install Docker compose?
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+docker-compose --version
 
 
 
