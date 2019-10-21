@@ -1,0 +1,282 @@
+Pre Check
+============
+VM World
+------------
+10 DONT KNOW
+
+Container World
+------------
+DOCKER - 
+
+Kubernentes - 
+
+Function World
+------------
+14 DO NOT KNOW LAMBDA
+================================
+
+Product - HPX
+Mgr - Mgrx.
+----------------------
+DevOps Model
+------------------
+https://www.youtube.com/watch?v=-VaVmb_UOC8
+    EVERY COMMIT MUST GO TO PRODUCTION  AKA Immediate Release
+    Quality of the software must be redefined.
+    Budget is very tight
+-------------------------------
+What the duration of your release?
+    ---> 1 day = 24 Hours
+====================================
+PLAN -> DEV -> QA -> PROD = 24 Hours
+===================================
+                1 Hour?
+====================================
+            HOW?
+
+
+Lets discuss what we do in SDLC?
+=====================================
+PLAN -> ARCHITECT --> JIRA, Confluence
+HPX ----> 10 MODULE ---> 10 DEV
+Code Integ ----> Git with Bitbucket
+Code Review
+        ---> PEER CODE REVIEW -> Bitbucket
+        ---> Static Code Analysis - > SonarQube
+BUILD - SBD, Maven, gradle, MSBUILD, ANT
+UT  - JUNIT - NUNIT
+Packaging
+        APP - JAR, ZIP, TAR, 
+        SYS - 
+Archive - Nexus, Artifactory
+Deploy 2 QA
+Deploy 2 Int
+Deploy 2 Staging
+    VMS
+    Containers
+    ---------------------------
+    1 HPX5.6 to 100 BOXES
+    ----------------------
+    25 W 25 R 25 U 25 FE
+    50 APC 50 NG
+    25 JB 25 T 20 Wl 25 WS
+    25 MYSQ 25 MS 25 OR 25 PS
+    100 diff
+    -------------------
+    1 AUTO DEPLOYMENT - 9 MINS
+    100 DEP -----------> 9 mins
+
+    VMS - Ansible - Puppt - Chef
+
+    1 SEC ----------> Container with Docker -?> Kubernetes
+==========
+    AT 
+
+    Code Coverage - JACOC, COVERITY, COVErTUrA
+    ---------------------------------------------
+    IF ALL PASSES --- WE DO PROMOTION
+
+    Deploy 2 Int
+    Deploy 2 Staging
+    Deploy 2 Pre prod
+    Deploy 2 prod
+
+    IF ONE FAILED ----> REPEAT
+    ============================================
+PLAN->CODE->Ana->BUILD->UT->PACK->ARch->Dep2QA->AT->CC
+JIRA->GIT->SONAR->MAVEN->JUNIT-JAR-ART-Ansibe->SEL->JACoco
+------------------------------------------------------------
+                    JENKINS
+    Intergrate with ALL
+    Schedule at Certain cond
+    Feedback
+
+COntinous Intgration --> Delivery -> Deployment
+===================================================
+PROCESS IMPROVMENT
+===================================================
+PRODUCTION
+======================
+Dep 2 PRODUCTION
+        VM - Ansible
+        Container - Kubernentes
+
+Monitoring
+        Performance Monitoring - New Relic, 
+        Infra & App - Prometheous + Nagios + Datadog
+        Log - ELK - Splunk
+===============================================
+DEVOPS - 
+Code for Product
+Code for Testing a Product
+Code to Infra
+=========================================
+https://www.devopsschool.com/path
+
+
+Container World
+------------
+DOCKER COMPONENTS
+    DOCKER ENGINE - 
+    DOCKERFILE 
+    DOCKER COMPOSE 5
+    DOCKER HUB REGISRTY 
+    DOCKER REGISRTY
+    AWS ECR
+
+Kubernentes - 15 PEOPL
+    MASTER 
+        API SERVER
+        CONTROLLER-MGR
+        SCHEDULER
+        ETCD
+    WORKER
+        KUBELET
+        KUBE PROXY
+
+    kubernetes yaml file - 7
+    helm - NONE
+=====================================
+What is service?
+What is disadvantage of service
+What is microservice
+microservice pricipals
+microservice approch
+microservice platforms
+microservice messaging
+microservice security
+microservice REGISRTY
+microservice discovery
+---------------------------------
+Kubernentes
+
+Step 1 - microservice using docker - DAY 1
+Step 2 - microservice using kubernetes - DAY 1
+Step 3 - microservice using VMS - - DAY 2
+Step 4- microservice using serverless - - DAY 3
+=================================================
+What is Docker?
+================
+Container mgmt tool.
+
+What is Container?
+=================
+Container is user space with their own
+        MOUNTS from MNT N
+        NETWORK from NET NS
+        PROCESS MAP from pMAP NS
+
+        with a help of docker --
+                Kernal 
+                How?
+                        LXCS
+                             RUNC
+=====================
+What is mgmt
+    Create - start - stop - retsrat - pause - un - stop - rm
+
+How container RUN?
+=============================
+ENTRYPOINT OR CMD   
+        WHEER --  DOCKERFILE
+                FROM ADD USER PORT VOLUME
+        GETTING PID 1
+
+What is DOCKER COMPOSE?
+=====================
+
+Implmenting microservice using Docker Container
+13.235.104.153
+
+Step 1 - Install Docker
+https://www.devopsschool.com/tutorial/docker/install-config/docker-install-commuityedition-centos-rhel.html
+
+Step 2 - Do this lab
+https://www.devopsschool.com/tutorial/docker/labs/docker/docker-lab-6-link.html
+
+Implmenting microservice using Docker and Compose
+===================================
+PYTHON
+https://github.com/devopsschool-sample-projects/flask-microservice-docker-compose
+
+Docker VOLUME
+=====================
+- volume
+- mount
+- tmf
+
+
+LAB MACHINE
+=================
+1 35.154.202.192
+2 52.66.206.1
+3 13.233.254.162
+4 13.232.64.59
+5 13.235.13.184
+6 13.127.170.164
+7 15.206.93.129
+8 15.206.92.103
+9 13.233.25.135
+10 52.66.152.194
+11 13.233.215.1
+12 13.233.84.252
+13 35.154.102.145
+14 13.127.241.172
+15 13.233.225.222
+16 13.232.239.157
+17 13.234.111.157
+18 52.66.19.214
+user name - ec2-user
+key
+
+FILL THIS 
+http://bit.ly/33LSaiM
+
+
+
+noorul
+bmsundar
+vimal3271
+ram31886
+titusjose
+suvojitkar
+karthikar1992
+kavvya97
+yogeswarant
+Ankur-Verma-97
+vikaskh
+karthi696
+denisraj
+shreya1202
+Sakshi-Bhargava
+SrivigneshM
+partheeban17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
