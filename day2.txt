@@ -77,7 +77,7 @@ kubeadm join 172.31.32.6:6443 --token y3wf3c.50aigdquiuliyayj \
 3 13.235.51.69
 4 13.234.34.18
 5 52.66.31.57
-6 35.154.11.21
+6 52.66.31.57
 7 13.233.5.82
 8 13.126.168.54
 9 13.233.252.43
@@ -85,6 +85,23 @@ kubeadm join 172.31.32.6:6443 --token y3wf3c.50aigdquiuliyayj \
 11 13.235.238.33
 12 13.234.186.88
 13 13.233.89.101
+====================================================
+Kubernetes DEMO Instructions - 
+https://medium.com/hackernoon/getting-started-with-microservices-and-kubernetes-76354312b556
 
-How to taint a node
-kubectl taint nodes --all node-role.kubernetes.io/master-
+Kubernetes Example Code 
+https://github.com/devopsschool-sample-projects/total_invoice_management
+
+Service 1 - expected_date_svc
+
+Service 2 - invoices_svc
+
+Service 3 - ambassador svc
+
+Service 4 - auth_svc
+
+
+An API gateway to route traffic into our system
+An authentication service to limit access
+A front end invoices service to return information about invoices
+A back end expected date service that’ll tell us when an invoice is likely to be paid
