@@ -85,3 +85,6 @@ kubeadm join 172.31.32.6:6443 --token y3wf3c.50aigdquiuliyayj \
 11 13.235.238.33
 12 13.234.186.88
 13 13.233.89.101
+
+How to taint a node
+kubectl taint nodes --all node-role.kubernetes.io/master-
