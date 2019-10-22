@@ -1,0 +1,87 @@
+Microservices with Kubernetes
+======================================
+What is Kuberentes?
+========================
+Container orch tool
+    Microservices Orch tool.
+=========================
+
+Architecture of Kuberentes?
+    Kuberentes Master
+        API SERVER -> POD --> Kubelet --> Docker
+        ETCD -> POD --> Kubelet --> Docker
+        Controller Manager -> POD --> Kubelet --> Docker
+        Schedular -> POD --> Kubelet --> Docker
+
+        Kubelet
+        Docker
+        Kubectl
+        kubeadm
+
+    Kuberentes Worker
+        kubelet
+        kube proxy
+        Docker Engine
+
+
+humen ->API SERVER-> ETCD
+        Controller Mgmr IN LOOP --> API SERVER --ETCD
+                                API SERVER --> SCHEDULAR -> API SERVER --> KUBELET 
+                                                                                Instantaiate POD
+                                                                                            ASK Docker to FILL a Container
+                                                                                            Con -> POD
+=======================================================================================
+minikube
+kubeadm - manual
+kops
+eks
+gke
+============================
+Docker installation - 
+https://www.devopsschool.com/tutorial/docker/install-config/docker-install-commuityedition-centos-rhel.html
+
+Kubeadm - Kubectl - kubectl 
+https://www.devopsschool.com/blog/setting-up-kubernetes-clusters-using-kubeadm-manual-way-in-rhel-7-centos7/
+
+Step 1- Setting up a clustor - 13.126.237.83
+Step 2 - Setting up a Worker
+Step 3 - 
+Implement MSA 
+        Gateway
+        Auth
+        FEw Deploy
+Rajesh
+
+Your Kubernetes control-plane has initialized successfully!
+
+To start using your cluster, you need to run the following as a regular user:
+
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+You should now deploy a pod network to the cluster.
+Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join 172.31.32.6:6443 --token y3wf3c.50aigdquiuliyayj \
+    --discovery-token-ca-cert-hash sha256:31d16f0cc4c8a220a9398661f2ba05f39558fa74f818760b640b41392a39db3b 
+[root@ip-172-31-32-6 ec2-user]# 
+
+
+
+1 15.206.69.180
+2 13.234.136.69
+3 13.235.51.69
+4 13.234.34.18
+5 52.66.31.57
+6 52.66.31.57
+7 13.233.5.82
+8 13.126.168.54
+9 13.233.252.43
+10 13.234.120.246
+11 13.235.238.33
+12 13.234.186.88
+13 13.233.89.101
