@@ -105,3 +105,58 @@ An API gateway to route traffic into our system
 An authentication service to limit access
 A front end invoices service to return information about invoices
 A back end expected date service that’ll tell us when an invoice is likely to be paid
+
+==============================================
+group - hpe
+user - training 
+HpeTrain$1209
+https://545084392359.signin.aws.amazon.com/console
+
+
+AKIAX52MPYOTQZUCRC22
+9rtYl+xkeUhTpBOnnUuXRllSiyaqGSq5WrR+NBwu 
+
+===========================
+Microservices Concept/Practices/Approach
+Docker
+Kubernetes
+aws
+=========================
+
+TUTORIALS
+NOTES
+https://www.devopsschool.com/notes/
+https://github.com/orgs/devopsschool-lab-exercise/dashboard
+
+SAMPLE PROGRAM
+https://github.com/orgs/devopsschool-sample-projects/dashboard
+https://github.com//devops-school
+
+QA
+https://www.devopsschool.com/lms
+
+BLOGS
+http://www.devopsschool.com/blog/
+
+SLIDES
+https://www.devopsschool.com/slides/microservices/
+https://www.devopsschool.com/slides/kubernetes/
+https://www.devopsschool.com/slides/docker/index.html
+https://www.devopsschool.com/pdf/
+
+https://www.devopsschool.com/tutorial/docker/
+https://www.devopsschool.com/tutorial/kubernetes/
+https://www.devopsschool.com/tutorial/aws/
+
+Videos
+https://www.youtube.com/channel/UCrXr49kBvXJeQMMl2693c4g
+
+
+
+
+
+
+
+
+
+
